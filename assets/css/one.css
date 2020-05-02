@@ -1,0 +1,143 @@
+body {
+	margin: 0px;
+	background-color: #EBF4FF;
+	background-position: center;
+	position: relative;
+	width: 1440px;
+	height: 768px;
+}
+
+.title{
+position: absolute;
+width: 1000px;
+height: 101px;
+left: 240px;
+top: 30px;
+
+font-family: 'Raleway', sans-serif;
+font-style: normal;
+font-weight: 300;
+font-size: 50px;
+line-height: 101px;
+text-align: center;
+
+color: #0068A6;
+}
+
+hr{
+position: absolute;
+width: 250px;
+height: 0px;
+left: 630px;
+top: 105px;
+
+border: 1px solid #006BA1;
+}
+
+.title2{
+position: absolute;
+width: 300px;
+height: 44px;
+left: 605px;
+top: 120px;
+
+font-family: 'Nanum Myeongjo';
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 44px;
+text-align: center;
+
+color: #FF0000;
+}
+
+
+.paragraph{
+position: absolute;
+width: 671px;
+height: 534px;
+left: 680px;
+top: 202px;
+font-family: "Vollkorn";
+font-style: normal;
+font-weight: normal;
+font-size: 17.6px;
+line-height: 40px;
+text-align:left;
+color: #333333;
+}
+
+#pictures {
+    position: absolute;
+    top: 450px;
+    left: 360px;
+    transform: translate(-50%, -50%);
+    width: 680px;
+    margin: auto;
+    text-align: center;
+    height: 471px;
+}
+
+#pictures img {
+    width: 500px;
+    margin: 0 10px;
+    transition: 0.3s;
+}
+
+#pictures img:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+.hidden {
+    display: none;
+}
+#lightbox-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+.lightbox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+}
+.lightbox img {
+    width: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.lightbox .caption {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20px;
+		font-family: "Jost";
+    background: white;
+    text-align: center;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.location{
+position: absolute;
+width: 62px;
+height: 64px;
+left: 1340px;
+top: 50px;
+}
+
+.home{
+position: absolute;
+width: 62px;
+height: 74px;
+left: 1356px;
+top: 115px;
+}
+
+.location:hover{
+  opacity: 70%;
+}
